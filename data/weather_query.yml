@@ -1,0 +1,161 @@
+tests_001:
+- case: 获取上海地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 上海
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 上海
+        areaCode: '310000'
+        areaid: '101020100'
+- case: 获取浙江地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 浙江
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 海宁
+        areaCode: '330481'
+        areaid: '101210303'
+- case: 获取江苏地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 江苏
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 海宁
+        areaCode: '320685'
+        areaid: '101190502'
+- case: 获取安徽地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 安徽
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 繁昌
+        areaCode: '340222'
+        areaid: '101220302'
+- case: 获取湖北地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 湖北
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 鄂州
+        areaCode: '420700'
+        areaid: '101200301'
+- case: 获取湖南地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 湖南
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 衡阳
+        areaCode: '430400'
+        areaid: '101250401'
+- case: 获取江西地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 江西
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 彭泽
+        areaCode: '360430'
+        areaid: '101240208'
+- case: 获取福建地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 福建
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 福清
+        areaCode: '350181'
+        areaid: '101230111'
+- case: 获取广东地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 广东
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 广州
+        areaCode: '440100'
+        areaid: '101280101'
+- case: 获取山东地区24小时天气
+  http:
+    method: POST
+    path: /common/weather/get24HoursWeatherByArea
+    data:
+      apiKey: zjuBWRp7a2a1b206de8d80c9ba07495e9f1ed7028193f5c
+      area: 东营
+  expected:
+    response:
+      statusCode: '000000'
+      desc: 请求成功
+      result:
+        count: '24'
+        area: 东营
+        areaCode: '370500'
+        areaid: '101121201'
